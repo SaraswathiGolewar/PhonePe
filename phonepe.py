@@ -390,7 +390,7 @@ st.set_page_config(layout="wide")
 st.title("PHONEPE DATA VISUALIZATION AND EXPLORATION")
 
 with st.sidebar:
-    select=option_menu("Main Menu",["Home","Data Exploration","Top Charts"])
+    select=option_menu("Main Menu",["Home","Data Exploration"])
 if select=="Home":
     col1,col2= st.columns(2)
 
@@ -641,5 +641,3 @@ elif select=="Data Exploration":
 
 
 
-elif select=="Top Charts":
-    pass
